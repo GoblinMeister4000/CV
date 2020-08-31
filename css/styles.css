@@ -72,7 +72,8 @@ h3 {
 /* ---------- START Middle container ---------- */
 
 .middle-container {
-
+    background-image: linear-gradient(to bottom, rgb(57, 219, 219), rgb(37, 86, 223) );
+    /*background-color: rgb(57, 219, 219);*/
 }
 
 hr {
@@ -109,7 +110,6 @@ hr {
 /* ---------- START Bottom container ---------- */
 
 .contact-me{
-    background-color: sandybrown;
     padding: 50px 0px;
 }
 
@@ -117,10 +117,13 @@ hr {
     margin-bottom: 50px;
 }
 
-.bottom-container {
-    background-color: sandybrown;
-    padding-bottom: 50px;
+.bottom-container {    
     margin: 0px;
+    padding-bottom: 50px;
+    border-top: 6px solid rgb(236, 163, 79);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: url("../assets/images/sand_texture.jpg");
 }
 
 .bottom-container p {
