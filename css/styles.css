@@ -2,25 +2,20 @@ body {
     background-color: paleturquoise;
     margin: 0px;
     text-align: center;
-
-    /*google fonts 
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Sacramento', cursive;
-    
-    */
     font-family: 'Merriweather', serif;
 }
 
-/* ---------- Top container ---------- */
+p {
+    line-height: 2;
+}
+
+
+/* ---------- START Top container ---------- */
 .top-container {
     background-color: #E7F6F6;
     position: relative;
     margin-top: 0px;
-    padding-top: 100px;
-}
-
-.top-container h1 {
-    margin-top: 0px;
+    padding-top: 100px;    
 }
 
 .pro {
@@ -46,15 +41,21 @@ body {
 
 h1 {
     font-family: 'sacramento', sans-serif;
-    font-size: 562.5%;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'monserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
 }
 
 h3 {
     font-family: 'monserrat', sans-serif;
+    color: #11999E;
 }
 
 #img-programmer {
@@ -64,13 +65,96 @@ h3 {
 }
 
 
-/* ---------- Top container ---------- */
+/* ---------- END Top container ---------- */
 
+
+
+/* ---------- START Middle container ---------- */
 
 .middle-container {
 
 }
 
-.bottom-container {
-
+hr {
+    border: dotted 8px #EAF6F6;
+    border-bottom: none;
+    width: 8%;
+    margin: 50px auto;
 }
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.programming-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;    
+}
+
+/* ---------- END Middle container ---------- */
+
+
+
+
+/* ---------- START Bottom container ---------- */
+
+.contact-me{
+    background-color: sandybrown;
+    padding: 50px 0px;
+}
+
+.contact-me p {
+    margin-bottom: 50px;
+}
+
+.bottom-container {
+    background-color: sandybrown;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.bottom-container p {
+    margin-bottom: 0px;
+}
+
+.btn {
+    color: #ffffff;
+    box-shadow: #666666;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #11cdd4 , #11999e);
+}
+
+.btn:hover {
+    background-image: linear-gradient(to bottom, #30e3cb , #2bc4ad);
+}
+
+.footer-link {
+    color: rgb(48, 38, 38);
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: 'monserrat', sans-serif;
+    text-decoration: none;
+}
+
+.li-icon {
+    position: relative;
+    top: 6px;
+    right: 6px;
+}
+
+/* ---------- END Bottom container ---------- */
